@@ -1,0 +1,57 @@
+/* add your CSS here */
+/*Class describing h3 element, name of animal*/
+.title {
+  font-size: 20pt;
+  border: 1px solid black;
+  border-style: dotted;
+  padding: 10px;
+  text-align: center;
+}
+
+/*Class for image description*/
+.cardImage {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 15px;
+  border: 1px dotted #ffccff;
+}
+
+/*Class for paragraph element, describing animal's fun fact*/
+.fact {
+  
+
+  
+  font-style: italic;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+span {
+  font-weight: bold;
+}
+
+/*Class for main div, trading card description*/
+.card {
+  width: 300px;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #ffccff;
+}
+
+/*Class for nested div, animal's additional information*/
+.infoBox {
+  border: 1px dotted black;
+}
+
+/*Class for second paragraph, animal's description*/
+.description {
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+}
